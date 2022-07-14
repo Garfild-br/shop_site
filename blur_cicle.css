@@ -1,0 +1,55 @@
+.wrapper_for_cicle{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    animation: cicle 5s infinite linear;
+    border-radius: 50%;
+}
+@media (max-width: 600px){
+    .wrapper_for_cicle {
+        animation: cicle 3s infinite linear;
+    }
+}
+@keyframes cicle{
+    0% {transform: rotate(360deg);}; 
+   100% {};
+}
+.blur_cicle_1 {
+    position: absolute;
+    width: 80%;
+    height: 800px;
+    background: rgb(255, 3, 175);
+    z-index: -5;
+    border-radius: 0% 0% 30% 0%;
+    filter: blur(230px);
+    border-radius: 50%;
+}
+.blur_cicle_2 {
+    position: absolute;
+    width: 70vw;
+    height: 400PX;
+    background: rgb(0, 229, 255);
+    z-index: -5;
+    border-radius: 0% 0% 30% 0%;
+    filter: blur(230px);
+    left: 25%;
+    top: 50%;
+    border-radius: 50%;
+
+}
+.blur_cicle_3 {
+    position: absolute;
+    width: 70vw;
+    height: 400PX;
+    background: rgb(6, 2, 255);
+    z-index: -5;
+    border-radius: 0% 0% 30% 0%;
+    filter: blur(230px);
+    left: 25%;
+    border-radius: 50%;
+}
+@media (max-width: 600px) {
+    .wrapper_for_cicle {
+        animation: cicle 2.5s infinite linear;
+    }
+}

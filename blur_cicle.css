@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     height: 100vh;
-    animation: cicle 5s infinite linear;
+    animation: cicle 7s infinite linear;
     border-radius: 50%;
 }
 @media (max-width: 600px){
@@ -50,6 +50,6 @@
 }
 @media (max-width: 600px) {
     .wrapper_for_cicle {
-        animation: cicle 2.5s infinite linear;
+        animation: cicle 5s infinite linear;
     }
 }
